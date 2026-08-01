@@ -28,7 +28,7 @@ WELCOME_VIDEO = "Scene-1+(1)_out.mp4"
 
 
 def welcome_video_path():
-    return os.path.jааш iufs.path.dirname(os.path.abspath(__file__)), WELCOME_VIDEO)
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), WELCOME_VIDEO)
 
 
 def try_edit_media_caption(call, caption, reply_markup, parse_mode="HTML"):
